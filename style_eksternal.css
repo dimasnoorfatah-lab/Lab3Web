@@ -1,36 +1,48 @@
-nav {
-    background: #20A759;
-    color: #f3f0f0;
-    padding: 10px;
+nav{
+background: #20a759;
+color: #fff;
+padding: 10px;
 }
 nav a {
-    color: #faf6f6;
-    text-decoration: none;
-    padding: 10px 20px;
-}    
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+}
 nav .active,
 nav a:hover {
-    background: #1a8c4a;
-}
-/* id selectors */
-#intro{
-    background: #069adf;
-    border: 1px solid #099249;
-    min-height: 100px;
-    padding: 10px;
-}
-#intro h1 {
-    text-align: left;
-    border: 0;
-    color: #fff;
+color: #626262;
 }
 
-/* class selectors */
+/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
 .button {
-    padding: 15px 20px;
-    background: #ec0404;
+padding: 15px 20px;
+background: #dc2323;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+/* experiment: menambahkan efek hover pada tag a yang memiliki class button */
+.button:hover{
+    background-color: #626262;
+    cursor: pointer;
+}
+
+#deklarasi-id{
     color: #fff;
-    display: inline-block;
-    margin: 10px;
-    text-decoration: none;
+}
+.deklarasi-class{
+    color: aquamarine;
 }
